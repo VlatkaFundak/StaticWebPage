@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StaticWebPage", "StaticWebPage\StaticWebPage.csproj", "{E3E3C23D-9ADA-4F25-8C65-9C6C5BC5715C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E3E3C23D-9ADA-4F25-8C65-9C6C5BC5715C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3E3C23D-9ADA-4F25-8C65-9C6C5BC5715C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3E3C23D-9ADA-4F25-8C65-9C6C5BC5715C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3E3C23D-9ADA-4F25-8C65-9C6C5BC5715C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
