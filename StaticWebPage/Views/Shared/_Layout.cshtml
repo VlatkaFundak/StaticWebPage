@@ -7,49 +7,78 @@
     <link href="~/Content/Site.css" rel="stylesheet" type="text/css" />
     <link href="~/Content/bootstrap.min.css" rel="stylesheet" type="text/css" />
     <script src="~/Scripts/modernizr-2.6.2.js"></script>
+
 </head>
 <body>
-    <div class="navbar navbar-inverse navbar-fixed-top">
-        <div class="container header">
-            <div class="navbar-collapse collapse">
-                <ul class="nav navbar-nav">
+    <div class="main-nav1">
+        <div class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container header">
+                <div class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav">
                         <li class="navbar-link">@Html.ActionLink("Home", "Index", "Home")</li>
                         <li class="navbar-link">@Html.ActionLink("About", "About", "Home")</li>
                         <li class="navbar-link">@Html.ActionLink("Contacts", "Contact", "Home")</li>
                     </ul>
+                </div>
             </div>
+
         </div>
 
     </div>
-
             <div class="container body-content">
 
                 @RenderBody()
 
                 <hr />
-                <footer>
-                    <h3>
-                        Visit also:
-                    </h3>
-
-                    <p>
-                        <a href="https://www.facebook.com/">Facebook</a>
-                    </p>
-
-                    <p>
-                        <a href="https://twitter.com/">Twitter</a>
-                    </p>
-
-                    <p>
-                        <a href="https://www.instagram.com/">Instagram</a>
-                    </p>
-                    <br />
-
-                    <p>&copy; @DateTime.Now.Year - My ASP.NET Minions Application</p>
-                </footer>
             </div>
 
-            <script src="~/Scripts/jquery-1.10.2.min.js"></script>
-            <script src="~/Scripts/bootstrap.min.js"></script>
+        <footer>
+            <div class="footer-text">
+
+                <div class="head">
+                    <h3>Visit also:</h3>
+                </div>
+
+                <ul class="footer-left">
+                    <li class="footer-list">
+                        <a href="https://www.facebook.com/" target="_blank">
+                            <img src="~/Content/Images/facebook_logo.jpg" width="35" height="35" />
+                        </a>
+                    </li>
+
+                    <li class="footer-list">
+                        <a href="https://twitter.com/" target="_blank">
+                            <img src="~/Content/Images/twitter_logo.jpg" width="35" height="35" />
+                        </a>
+                    </li>
+
+                    <li class="footer-list">
+                        <a href="https://www.instagram.com/" target="_blank">
+                            <img src="~/Content/Images/Instagram_logo.jpg" width="35" height="35" />
+                        </a>
+                    </li>
+                </ul>
+
+                <ul class="footer-right">
+                    <li class="FAQ"><a href="https://www.google.com" target="_blank">FAQ</a></li>
+                    <li class="FAQ"><a href="https://en.wikipedia.org/wiki/Minions_%28film%29" target="_blank">ABOUT</a></li>
+                </ul>
+
+                <div class="Copyright">
+                    <p>W3Schools is optimized for learning, testing, and training. Examples might be simplified to 
+                    improve reading and basic understanding. Tutorials, references, and examples are constantly 
+                    reviewed to avoid errors, but we cannot warrant full correctness of all content. While using this site, 
+                    you agree to have read and accepted our terms of use, cookie and privacy policy. <br />
+                    &copy; 1999-2016 by Refsnes Data. All Rights Reserved.</p>
+
+                </div>
+            </div>
+            
+        </footer>
+
+    <script src="~/Scripts/jquery-1.10.2.min.js"></script>
+    <script src="~/Scripts/bootstrap.min.js"></script>
+
 </body>
 </html>
+

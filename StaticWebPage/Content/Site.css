@@ -24,24 +24,57 @@ textarea {
     float: right;
 }
 
-footer {
-    clear: both;
-    background-color: #FFFF99;
-    width: 100%;
-    margin-right: auto;
-    margin-left: auto;
+.footer-text {
+    margin-left: 120px;
+    margin-right:120px;
+}
+
+.footer-left {
+    list-style-type: none;
+    margin-bottom: 25px;
     padding: 0;
+    float: left;
 }
 
-.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
-    border-color: red;
+.footer-right {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    float: right;
 }
 
-.container > .navbar-header, .container > .navbar-collapse{
-    margin-left: 100px;
-    margin-right:  150px;
+.footer-list {
+    display: inline;
+    margin-right: 20px;
 }
 
-.nav {
+.FAQ{
+    display: inline;
+    margin-left: 50px;
+}
 
+footer {
+    background-color: #F8F8F8;
+}
+
+.Copyright {
+    clear: both;
+    text-align: center;
+}
+
+.main-nav1 {
+    width: 100%;
+    margin: auto;
+    border-radius: 10px;
+    position: fixed;
+    top: 0px;
+}
+
+.main-nav1 .navbar-fixed-top {
+    position: relative;
+    border-radius: 20px;
+}
+
+.main-nav1 .navbar-inverse {
+    background-color: #990099;
 }
