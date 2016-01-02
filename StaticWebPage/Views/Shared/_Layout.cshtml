@@ -1,0 +1,55 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title</title>
+    <link href="~/Content/Site.css" rel="stylesheet" type="text/css" />
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <script src="~/Scripts/modernizr-2.6.2.js"></script>
+</head>
+<body>
+    <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container header">
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                        <li class="navbar-link">@Html.ActionLink("Home", "Index", "Home")</li>
+                        <li class="navbar-link">@Html.ActionLink("About", "About", "Home")</li>
+                        <li class="navbar-link">@Html.ActionLink("Contacts", "Contact", "Home")</li>
+                    </ul>
+            </div>
+        </div>
+
+    </div>
+
+            <div class="container body-content">
+
+                @RenderBody()
+
+                <hr />
+                <footer>
+                    <h3>
+                        Visit also:
+                    </h3>
+
+                    <p>
+                        <a href="https://www.facebook.com/">Facebook</a>
+                    </p>
+
+                    <p>
+                        <a href="https://twitter.com/">Twitter</a>
+                    </p>
+
+                    <p>
+                        <a href="https://www.instagram.com/">Instagram</a>
+                    </p>
+                    <br />
+
+                    <p>&copy; @DateTime.Now.Year - My ASP.NET Minions Application</p>
+                </footer>
+            </div>
+
+            <script src="~/Scripts/jquery-1.10.2.min.js"></script>
+            <script src="~/Scripts/bootstrap.min.js"></script>
+</body>
+</html>
